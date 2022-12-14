@@ -32,7 +32,7 @@ public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.Viewholder> 
 
     @Override
     public void onBindViewHolder(@NonNull ImageAdapter.Viewholder holder, int position) {
-      holder.imageView.setImageBitmap(arrimagemodel.set(position).getImage());
+     /* holder.imageView.setImageBitmap(arrimagemodel.set(position).getImage());*/
     }
 
     @Override
