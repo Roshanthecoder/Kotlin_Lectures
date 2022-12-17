@@ -20,8 +20,8 @@ ArrayList<ImageModel> arrimageadap;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.youtube_layout);
-        videoView=findViewById(R.id.videoload);
+        setContentView(R.layout.facebook_layout);
+       /* videoView=findViewById(R.id.videoload);
         Uri uri=Uri.parse(videoUrl);
         videoView.setVideoURI(uri);
         MediaController mediaController=new MediaController(this);
@@ -33,7 +33,7 @@ ArrayList<ImageModel> arrimageadap;
         videoView.getCurrentPosition();
 
         // starts the video
-        videoView.start();
+        videoView.start();*/
 
        /* recyclerView=findViewById(R.id.recyclerview);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
